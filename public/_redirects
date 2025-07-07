@@ -1,0 +1,13 @@
+# Netlify redirects file for SPA routing
+/*    /index.html   200
+
+# API redirects (if using serverless functions)
+/api/*  /.netlify/functions/:splat  200
+
+# SEO redirects
+/retail-marketing  /services/retail-marketing  301
+/ecommerce  /services/ecommerce  301
+/real-estate  /services/real-estate  301
+/brand-development  /services/brand-development  301
+/digital-advertising  /services/digital-advertising  301
+/social-media  /services/social-media  301
